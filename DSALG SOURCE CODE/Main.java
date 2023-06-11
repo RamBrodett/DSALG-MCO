@@ -14,7 +14,7 @@ public class Main {
 
         SortingAlgorithms sr = new SortingAlgorithms();
 
-        sr.insertionSort(ccs_Students,4);
+        sr.insertionSort(ccs_Students, ccs_Students.length);
 
         int x=0;
 
@@ -37,7 +37,7 @@ public class Main {
                 new Record( "Queen", 12205560)
         };
 
-        sr.selectionSort(cob_Students,4);
+        sr.selectionSort(cob_Students, cob_Students.length);
 
         int y=0;
 
@@ -46,8 +46,35 @@ public class Main {
             System.out.println(y + " " + student.getIdNumber() +" "+ student.getName());
         }
 
-
         // end of selection tester -------------------------------------------------------
+
+        System.out.println();
+
+        //tester code for merge ----------------------------------------------------
+
+        Record[] cla_Students  = new Record[]{
+                new Record( "Julia", 12205559),
+                new Record( "Debbie", 10165833),
+                new Record( "Jersey", 10056472),
+                new Record( "Amanda", 12205560),
+                new Record("Veronica", 12135617)
+        };
+
+        sr.mergeSort(cla_Students,0,cla_Students.length-1);
+
+        int z=0;
+
+        for(Record student : cla_Students){
+            z++;
+            System.out.println(z + " " + student.getIdNumber() +" "+ student.getName());
+        }
+
+
+        // end of merge tester -------------------------------------------------------
+
+
+
+
 
 
     }
