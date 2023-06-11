@@ -84,6 +84,11 @@ public class SortingAlgorithms {
     }
 
     /*
+     * @param arr is an array of objects of Record.
+     * @param nArr_Size is the size of array.
+     *
+     * @var run is the minimum run for the sorting division.
+     * @var start,mid,end, i, and j are indices for the looping of the sort algorithm.
      *
      *
      * Timsort is a sorting algorithm that employs a divide and conquer approach,
@@ -95,11 +100,11 @@ public class SortingAlgorithms {
     public void timSort(Record[] arr, int nArr_size) {
         final int run = 32;
         for (int i = 0; i < nArr_size; i += run)
-            insertionSort(arr, Math.min(i + run - 1, nArr_size - 1)+1);
-        for (int size = run; size < nArr_size; size = 2*size) {
+            insertionSort(arr, Math.min(i + run - 1, nArr_size - 1) + 1);
+        for (int size = run; size < nArr_size; size = 2 * size) {
             for (int start = 0; start < nArr_size; start += 2 * size) {
                 int mid = start + size-1;
-                int end = Math.min(start+2*size-1, nArr_size-1);
+                int end = Math.min(start + 2 * size - 1, nArr_size - 1);
                 if(mid<end)
                     mergeHelper(arr, start, mid, end);
             }
