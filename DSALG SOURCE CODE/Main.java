@@ -736,7 +736,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Insertion Sort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Insertion Sort","Time Taken (ms)","File Length",
                 "filename: almostsorted.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_insertion, almstsrt_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_insertion1, almstsrt_size);
@@ -746,7 +746,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Selection Sort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Selection Sort","Time Taken (ms)","File Length",
                 "filename: almostsorted.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_selection, almstsrt_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_selection1, almstsrt_size);
@@ -756,7 +756,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Merge Sort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Merge Sort","Time Taken (ms)","File Length",
                 "filename: almostsorted.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_merge, almstsrt_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_merge1, almstsrt_size);
@@ -766,7 +766,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Timsort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Timsort","Time Taken (ms)","File Length",
                 "filename: almostsorted.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_tim, almstsrt_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_tim1, almstsrt_size);
@@ -775,7 +775,7 @@ public class Main {
 
         System.out.println("\n----------------------------------" +
                 "--------------------------------------------------------");
-        System.out.printf("%35s | %20s | %11s | %s\n","Algorithm: "," Avg Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-20s | %-11s | %s\n","Algorithm: "," Avg Time Taken (ms)","File Length",
                 "filename: almostsorted.txt");
         System.out.printf("%-35s | %-20d | %-10d\n","Insertion Sort",((execTime_insertion+execTime_insertion1+
                 execTime_insertion2+ execTime_insertion3)/4), almstsrt_size);
@@ -793,7 +793,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Insertion Sort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Insertion Sort","Time Taken (ms)","File Length",
                 "filename: random100.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_insertion_a, rand100_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_insertion1_a, rand100_size);
@@ -803,7 +803,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Selection Sort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Selection Sort","Time Taken (ms)","File Length",
                 "filename: random100.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_selection_b, rand100_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_selection1_b, rand100_size);
@@ -813,7 +813,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Merge Sort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Merge Sort","Time Taken (ms)","File Length",
                 "filename: random100.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_merge_c, rand100_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_merge1_c, rand100_size);
@@ -823,7 +823,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Timsort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Timsort","Time Taken (ms)","File Length",
                 "filename: random100.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_tim_d, rand100_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_tim1_d, rand100_size);
@@ -832,7 +832,7 @@ public class Main {
 
         System.out.println("\n----------------------------------" +
                 "--------------------------------------------------------");
-        System.out.printf("%35s | %20s | %11s | %s\n","Algorithm: "," Avg Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-20s | %-11s | %s\n","Algorithm: "," Avg Time Taken (ms)","File Length",
                 "filename: random100.txt");
         System.out.printf("%-35s | %-20d | %-10d\n","Insertion Sort",((execTime_insertion_a+execTime_insertion1_a+
                 execTime_insertion2_a+ execTime_insertion3_a)/4), rand100_size);
@@ -852,7 +852,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Insertion Sort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Insertion Sort","Time Taken (ms)","File Length",
                 "filename: random25000.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_insertion_a1, rand25000_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_insertion1_a1, rand25000_size);
@@ -862,7 +862,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Selection Sort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Selection Sort","Time Taken (ms)","File Length",
                 "filename: random25000.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_selection_b2, rand25000_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_selection1_b2, rand25000_size);
@@ -872,7 +872,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Merge Sort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Merge Sort","Time Taken (ms)","File Length",
                 "filename: random25000.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_merge_c3, rand25000_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_merge1_c3, rand25000_size);
@@ -882,7 +882,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Timsort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Timsort","Time Taken (ms)","File Length",
                 "filename: random25000.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_tim_d4, rand25000_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_tim1_d4, rand25000_size);
@@ -891,7 +891,7 @@ public class Main {
 
         System.out.println("\n----------------------------------" +
                 "--------------------------------------------------------");
-        System.out.printf("%35s | %20s | %11s | %s\n","Algorithm: "," Avg Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-20s | %-11s | %s\n","Algorithm: "," Avg Time Taken (ms)","File Length",
                 "filename: random25000.txt");
         System.out.printf("%-35s | %-20d | %-10d\n","Insertion Sort",((execTime_insertion_a1+execTime_insertion1_a1+
                 execTime_insertion2_a1+ execTime_insertion3_a1)/4), rand25000_size);
@@ -910,7 +910,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Insertion Sort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Insertion Sort","Time Taken (ms)","File Length",
                 "filename: random50000.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_insertion_a1a, rand50000_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_insertion1_a1a, rand50000_size);
@@ -920,7 +920,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Selection Sort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Selection Sort","Time Taken (ms)","File Length",
                 "filename: random50000.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_selection_b2b, rand50000_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_selection1_b2b, rand50000_size);
@@ -930,7 +930,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Merge Sort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Merge Sort","Time Taken (ms)","File Length",
                 "filename: random50000.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_merge_c3c, rand50000_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_merge1_c3c, rand50000_size);
@@ -940,7 +940,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Timsort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Timsort","Time Taken (ms)","File Length",
                 "filename: random50000.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_tim_d4d, rand50000_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_tim1_d4d, rand50000_size);
@@ -949,7 +949,7 @@ public class Main {
 
         System.out.println("\n----------------------------------" +
                 "--------------------------------------------------------");
-        System.out.printf("%35s | %20s | %11s | %s\n","Algorithm: "," Avg Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-20s | %-11s | %s\n","Algorithm: "," Avg Time Taken (ms)","File Length",
                 "filename: random50000.txt");
         System.out.printf("%-35s | %-20d | %-10d\n","Insertion Sort",((execTime_insertion_a1a+execTime_insertion1_a1a+
                 execTime_insertion2_a1a+ execTime_insertion3_a1a)/4), rand50000_size);
@@ -968,7 +968,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Insertion Sort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Insertion Sort","Time Taken (ms)","File Length",
                 "filename: random75000.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_insertion_a1a1, rand75000_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_insertion1_a1a1, rand75000_size);
@@ -978,7 +978,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Selection Sort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Selection Sort","Time Taken (ms)","File Length",
                 "filename: random75000.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_selection_b2b2, rand75000_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_selection1_b2b2, rand75000_size);
@@ -988,7 +988,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Merge Sort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Merge Sort","Time Taken (ms)","File Length",
                 "filename: random75000.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_merge_c3c3, rand75000_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_merge1_c3c3, rand75000_size);
@@ -998,7 +998,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Timsort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Timsort","Time Taken (ms)","File Length",
                 "filename: random75000.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_tim_d4d4, rand75000_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_tim1_d4d4, rand75000_size);
@@ -1007,7 +1007,7 @@ public class Main {
 
         System.out.println("\n----------------------------------" +
                 "--------------------------------------------------------");
-        System.out.printf("%35s | %20s | %11s | %s\n","Algorithm: "," Avg Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-20s | %-11s | %s\n","Algorithm: "," Avg Time Taken (ms)","File Length",
                 "filename: random75000.txt");
         System.out.printf("%-35s | %-20d | %-10d\n","Insertion Sort",((execTime_insertion_a1a1+execTime_insertion1_a1a1+
                 execTime_insertion2_a1a1+ execTime_insertion3_a1a1)/4), rand75000_size);
@@ -1026,7 +1026,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Insertion Sort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Insertion Sort","Time Taken (ms)","File Length",
                 "filename: random100000.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_insertion_a1a1a, rand100000_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_insertion1_a1a1a, rand100000_size);
@@ -1036,7 +1036,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Selection Sort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Selection Sort","Time Taken (ms)","File Length",
                 "filename: random100000.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_selection_b2b2b, rand100000_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_selection1_b2b2b, rand100000_size);
@@ -1046,7 +1046,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Merge Sort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Merge Sort","Time Taken (ms)","File Length",
                 "filename: random100000.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_merge_c3c3c, rand100000_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_merge1_c3c3c, rand100000_size);
@@ -1056,7 +1056,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Timsort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Timsort","Time Taken (ms)","File Length",
                 "filename: random100000.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_tim_d4d4d, rand100000_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_tim1_d4d4d, rand100000_size);
@@ -1065,7 +1065,7 @@ public class Main {
 
         System.out.println("\n----------------------------------" +
                 "--------------------------------------------------------");
-        System.out.printf("%35s | %20s | %11s | %s\n","Algorithm: "," Avg Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-20s | %-11s | %s\n","Algorithm: "," Avg Time Taken (ms)","File Length",
                 "filename: random100000.txt");
         System.out.printf("%-35s | %-20d | %-10d\n","Insertion Sort",((execTime_insertion_a1a1a+execTime_insertion1_a1a1a+
                 execTime_insertion2_a1a1a+ execTime_insertion3_a1a1a)/4), rand100000_size);
@@ -1084,7 +1084,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Insertion Sort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Insertion Sort","Time Taken (ms)","File Length",
                 "filename: totallyreversed.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_insertion_a1a1a1, rev_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_insertion1_a1a1a1, rev_size);
@@ -1094,7 +1094,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Selection Sort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Selection Sort","Time Taken (ms)","File Length",
                 "filename: totallyreversed.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_selection_b2b2b2, rev_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_selection1_b2b2b2, rev_size);
@@ -1104,7 +1104,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Merge Sort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Merge Sort","Time Taken (ms)","File Length",
                 "filename: totallyreversed.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_merge_c3c3c3, rev_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_merge1_c3c3c3, rev_size);
@@ -1114,7 +1114,7 @@ public class Main {
         System.out.println("----------------------------------" +
                 "--------------------------------------------------------");
 
-        System.out.printf("%35s | %15s | %11s | %s\n","Algorithm : Timsort","Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-15s | %-11s | %s\n","Algorithm : Timsort","Time Taken (ms)","File Length",
                 "filename: totallyreversed.txt");
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 1",execTime_tim_d4d4d4, rev_size);
         System.out.printf("%-35s | %-15d | %-10d\n","Trial 2",execTime_tim1_d4d4d4, rev_size);
@@ -1123,7 +1123,7 @@ public class Main {
 
         System.out.println("\n----------------------------------" +
                 "--------------------------------------------------------");
-        System.out.printf("%35s | %20s | %11s | %s\n","Algorithm: "," Avg Time Taken (ms)","File Length",
+        System.out.printf("%-35s | %-20s | %-11s | %s\n","Algorithm: "," Avg Time Taken (ms)","File Length",
                 "filename: totallyreversed.txt");
         System.out.printf("%-35s | %-20d | %-10d\n","Insertion Sort",((execTime_insertion_a1a1a1+execTime_insertion1_a1a1a1+
                 execTime_insertion2_a1a1a1+ execTime_insertion3_a1a1a1)/4), rev_size);
