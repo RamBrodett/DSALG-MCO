@@ -28,10 +28,22 @@ public class SortingAlgorithms {
     public void selectionSort(Record[] arr, int n) {
         // TODO: Implement this sorting algorithm here.
 
+        for(int i = 0; i < n-1; i++){
+            int minIndex = i;
+
+            for(int j = i+1; j<n; j++)
+                if(arr[j].getIdNumber() < arr[i].getIdNumber())
+                    minIndex = j;
+
+            Record temp = arr[minIndex];
+            arr[minIndex] = arr[i];
+            arr[i] = temp;
+        }
     }
 
     public void mergeSort(Record[] arr, int p, int r) {
         // TODO: Implement this sorting algorithm here.
+
 
     }
 
