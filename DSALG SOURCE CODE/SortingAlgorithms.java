@@ -24,7 +24,6 @@ public class SortingAlgorithms {
             arr[j+1] = key;
         }
     }
-
     public void selectionSort(Record[] arr, int n) {
         // TODO: Implement this sorting algorithm here.
 
