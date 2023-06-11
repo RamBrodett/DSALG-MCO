@@ -530,7 +530,7 @@ public class Main {
         long strtTime_merge_c3c3 = System.currentTimeMillis();
         sortAlgorithms.mergeSort(rec1b_rand75000,0, rand75000_size - 1);
         long endTime_merge_c3c3 = System.currentTimeMillis();
-        long execTime_merge_c3c3 = endTime_merge_c3 - strtTime_merge_c3;
+        long execTime_merge_c3c3 = endTime_merge_c3c3 - strtTime_merge_c3c3;
 
         long strtTime_merge1_c3c3 = System.currentTimeMillis();
         sortAlgorithms.mergeSort(rec2b_rand75000,0, rand75000_size - 1);
@@ -696,7 +696,7 @@ public class Main {
         long strtTime_tim1_d4d4d = System.currentTimeMillis();
         sortAlgorithms.timSort(rec2c_rand100000, rand100000_size);
         long endTime_tim1_d4d4d = System.currentTimeMillis();
-        long execTime_tim1_d4d4d = endTime_tim1_d4 - strtTime_tim1_d4;
+        long execTime_tim1_d4d4d = endTime_tim1_d4d4d - strtTime_tim1_d4d4d;
 
         long strtTime_tim2_d4d4d = System.currentTimeMillis();
         sortAlgorithms.timSort(rec3c_rand100000, rand100000_size);
@@ -716,12 +716,12 @@ public class Main {
         long strtTime_tim1_d4d4d4 = System.currentTimeMillis();
         sortAlgorithms.timSort(rec2c_rev, rev_size);
         long endTime_tim1_d4d4d4 = System.currentTimeMillis();
-        long execTime_tim1_d4d4d4 = endTime_tim1_d4 - strtTime_tim1_d4;
+        long execTime_tim1_d4d4d4 = endTime_tim1_d4d4d4 - strtTime_tim1_d4d4d4;
 
         long strtTime_tim2_d4d4d4 = System.currentTimeMillis();
         sortAlgorithms.timSort(rec3c_rev, rev_size);
         long endTime_tim2_d4d4d4 = System.currentTimeMillis();
-        long execTime_tim2_d4d4d4 = endTime_tim2_d4d4d - strtTime_tim2_d4d4d;
+        long execTime_tim2_d4d4d4 = endTime_tim2_d4d4d4 - strtTime_tim2_d4d4d4;
 
         long strtTime_tim3_d4d4d4 = System.currentTimeMillis();
         sortAlgorithms.timSort(rec4c_rev, rev_size);
