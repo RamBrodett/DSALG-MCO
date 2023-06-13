@@ -145,12 +145,59 @@ public class Main {
         Record[] rec4c_rev  = fileReader.readFile(filePath7); //end of timsort trial sample
 
         int rev_size = rec1_rev.length; // size of Rand75000 Sorted Record.
+        //-------------------------------- 500 000 random data (ram custom)---------------------------------------------
+        String filePath8 = "C:\\Users\\rmbro\\DSALG-MCO\\DSALG SOURCE CODE\\data\\random500000.txt";
+        Record[] rec1_rand500000 = fileReader.readFile(filePath8);
+        Record[] rec2_rand500000  = fileReader.readFile(filePath8);
+        Record[] rec3_rand500000  = fileReader.readFile(filePath8);
+        Record[] rec4_rand500000  = fileReader.readFile(filePath8); //end of insertion sort trial sample
+        Record[] rec1a_rand500000  = fileReader.readFile(filePath8);
+        Record[] rec2a_rand500000  = fileReader.readFile(filePath8);
+        Record[] rec3a_rand500000  = fileReader.readFile(filePath8);
+        Record[] rec4a_rand500000  = fileReader.readFile(filePath8); //end of selection sort trial sample
+        Record[] rec1b_rand500000 = fileReader.readFile(filePath8);
+        Record[] rec2b_rand500000  = fileReader.readFile(filePath8);
+        Record[] rec3b_rand500000  = fileReader.readFile(filePath8);
+        Record[] rec4b_rand500000  = fileReader.readFile(filePath8); //end of merge sort trial sample
+        Record[] rec1c_rand500000  = fileReader.readFile(filePath8);
+        Record[] rec2c_rand500000  = fileReader.readFile(filePath8);
+        Record[] rec3c_rand500000  = fileReader.readFile(filePath8);
+        Record[] rec4c_rand500000  = fileReader.readFile(filePath8); //end of timsort trial sample
+
+        int rand500000_size = rec1_rand500000.length; // size of Rand75000 Sorted Record.
+
+
+        //---------------------------------- 1 000 000 random data (ram custom)-----------------------------------------
+        String filePath9 = "C:\\Users\\rmbro\\DSALG-MCO\\DSALG SOURCE CODE\\data\\random500000.txt";
+        Record[] rec1_rand1000000 = fileReader.readFile(filePath9);
+        Record[] rec2_rand1000000  = fileReader.readFile(filePath9);
+        Record[] rec3_rand1000000  = fileReader.readFile(filePath9);
+        Record[] rec4_rand1000000  = fileReader.readFile(filePath9); //end of insertion sort trial sample
+        Record[] rec1a_rand1000000  = fileReader.readFile(filePath9);
+        Record[] rec2a_rand1000000  = fileReader.readFile(filePath9);
+        Record[] rec3a_rand1000000  = fileReader.readFile(filePath9);
+        Record[] rec4a_rand1000000  = fileReader.readFile(filePath9); //end of selection sort trial sample
+        Record[] rec1b_rand1000000 = fileReader.readFile(filePath9);
+        Record[] rec2b_rand1000000  = fileReader.readFile(filePath9);
+        Record[] rec3b_rand1000000  = fileReader.readFile(filePath9);
+        Record[] rec4b_rand1000000  = fileReader.readFile(filePath9); //end of merge sort trial sample
+        Record[] rec1c_rand1000000  = fileReader.readFile(filePath9);
+        Record[] rec2c_rand1000000  = fileReader.readFile(filePath9);
+        Record[] rec3c_rand1000000  = fileReader.readFile(filePath9);
+        Record[] rec4c_rand1000000  = fileReader.readFile(filePath9); //end of timsort trial sample
+
+        int rand1000000_size = rec1_rand1000000.length; // size of Rand75000 Sorted Record.
+
+
+
+
+
         //---------------------------------------END OF RECORDS---------------------------------------------------------
 
 
         /*
          * note:
-         *  naming with a,b,c,d on the ends are to make disticntion between for what sorting.
+         *  naming with a,b,c,d on the ends are to make distinction between for what sorting.
          *  a is for insertion
          *  b is for selection
          *  c is for merge
