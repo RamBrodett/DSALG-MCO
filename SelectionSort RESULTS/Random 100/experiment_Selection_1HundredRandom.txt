@@ -1,0 +1,12 @@
+
+|DATA RESULTS|
+------------------------------------------------------------------------------------------
+Algorithm : Selection               | Time Taken (ms) | File Length
+Trial 1                             | 1               | 100       
+Trial 2                             | 0               | 100       
+Trial 3                             | 0               | 100       
+Trial 4                             | 0               | 100       
+
+
+You can open the unsorted reference of this data test: random100.txt
+You can open the sorted result of this data test: sorted100.txt

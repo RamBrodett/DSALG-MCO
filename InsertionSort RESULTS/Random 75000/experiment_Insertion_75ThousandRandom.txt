@@ -1,0 +1,12 @@
+
+|DATA RESULTS|
+------------------------------------------------------------------------------------------
+Algorithm : Insertion               | Time Taken (ms) | File Length
+Trial 1                             | 11189           | 75000     
+Trial 2                             | 11038           | 75000     
+Trial 3                             | 6739            | 75000     
+Trial 4                             | 13060           | 75000     
+
+
+You can open the unsorted reference of this data test: random75000.txt
+You can open the sorted result of this data test: sorted75000.txt

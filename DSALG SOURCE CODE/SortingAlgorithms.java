@@ -52,7 +52,7 @@ public class SortingAlgorithms {
             int minIndex = i;
 
             for(int j = i+1; j<n; j++)
-                if(arr[j].getIdNumber() < arr[i].getIdNumber())
+                if(arr[j].getIdNumber() < arr[minIndex].getIdNumber())
                     minIndex = j;
 
             Record temp = arr[minIndex];

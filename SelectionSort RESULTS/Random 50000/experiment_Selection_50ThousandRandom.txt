@@ -1,0 +1,12 @@
+
+|DATA RESULTS|
+------------------------------------------------------------------------------------------
+Algorithm : Selection               | Time Taken (ms) | File Length
+Trial 1                             | 2522            | 50000     
+Trial 2                             | 2603            | 50000     
+Trial 3                             | 2434            | 50000     
+Trial 4                             | 5367            | 50000     
+
+
+You can open the unsorted reference of this data test: random50000.txt
+You can open the sorted result of this data test: sorted50000.txt

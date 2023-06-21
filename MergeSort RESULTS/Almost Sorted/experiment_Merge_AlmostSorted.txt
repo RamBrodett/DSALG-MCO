@@ -1,0 +1,12 @@
+
+|DATA RESULTS|
+------------------------------------------------------------------------------------------
+Algorithm : Merge                   | Time Taken (ms) | File Length
+Trial 1                             | 40              | 100000    
+Trial 2                             | 24              | 100000    
+Trial 3                             | 19              | 100000    
+Trial 4                             | 31              | 100000    
+
+
+You can open the unsorted reference of this data test: almostsorted.txt
+You can open the sorted result of this data test: sorted_almostsorted.txt

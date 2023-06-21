@@ -1,0 +1,12 @@
+
+|DATA RESULTS|
+------------------------------------------------------------------------------------------
+Algorithm : Merge                   | Time Taken (ms) | File Length
+Trial 1                             | 168             | 500000    
+Trial 2                             | 154             | 500000    
+Trial 3                             | 155             | 500000    
+Trial 4                             | 181             | 500000    
+
+
+You can open the unsorted reference of this data test: random500000.txt
+You can open the sorted result of this data test: sorted500000.txt

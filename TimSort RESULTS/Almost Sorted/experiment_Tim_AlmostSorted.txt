@@ -1,0 +1,12 @@
+
+|DATA RESULTS|
+------------------------------------------------------------------------------------------
+Algorithm : Tim                     | Time Taken (ms) | File Length
+Trial 1                             | 4926            | 100000    
+Trial 2                             | 4311            | 100000    
+Trial 3                             | 2141            | 100000    
+Trial 4                             | 5266            | 100000    
+
+
+You can open the unsorted reference of this data test: almostsorted.txt
+You can open the sorted result of this data test: sorted_almostsorted.txt

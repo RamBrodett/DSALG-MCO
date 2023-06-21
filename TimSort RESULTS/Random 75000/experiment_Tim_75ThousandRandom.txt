@@ -1,0 +1,12 @@
+
+|DATA RESULTS|
+------------------------------------------------------------------------------------------
+Algorithm : Tim                     | Time Taken (ms) | File Length
+Trial 1                             | 9595            | 75000     
+Trial 2                             | 9737            | 75000     
+Trial 3                             | 4772            | 75000     
+Trial 4                             | 13876           | 75000     
+
+
+You can open the unsorted reference of this data test: random75000.txt
+You can open the sorted result of this data test: sorted75000.txt

@@ -1,0 +1,12 @@
+
+|DATA RESULTS|
+------------------------------------------------------------------------------------------
+Algorithm : Merge                   | Time Taken (ms) | File Length
+Trial 1                             | 27              | 100000    
+Trial 2                             | 9               | 100000    
+Trial 3                             | 9               | 100000    
+Trial 4                             | 13              | 100000    
+
+
+You can open the unsorted reference of this data test: totallyreversed.txt
+You can open the sorted result of this data test: sorted_TotallyReversed.txt

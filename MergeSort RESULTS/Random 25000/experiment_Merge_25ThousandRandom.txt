@@ -1,0 +1,12 @@
+
+|DATA RESULTS|
+------------------------------------------------------------------------------------------
+Algorithm : Merge                   | Time Taken (ms) | File Length
+Trial 1                             | 15              | 25000     
+Trial 2                             | 13              | 25000     
+Trial 3                             | 5               | 25000     
+Trial 4                             | 5               | 25000     
+
+
+You can open the unsorted reference of this data test: random25000.txt
+You can open the sorted result of this data test: sorted25000.txt

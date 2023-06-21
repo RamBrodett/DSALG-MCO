@@ -1,0 +1,12 @@
+
+|DATA RESULTS|
+------------------------------------------------------------------------------------------
+Algorithm : Insertion               | Time Taken (ms) | File Length
+Trial 1                             | 37861           | 100000    
+Trial 2                             | 13194           | 100000    
+Trial 3                             | 13869           | 100000    
+Trial 4                             | 21478           | 100000    
+
+
+You can open the unsorted reference of this data test: totallyreversed.txt
+You can open the sorted result of this data test: sorted_TotallyReversed.txt
