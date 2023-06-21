@@ -15,11 +15,13 @@ public class SortingAlgorithms {
      * currently held element with the elements in the array and
      * inserts it into the correct position by shifting any larger
      * elements to the right.
+     * Syntax for insertionSort(array, size);
      */
 
     public void insertionSort(Record[] arr, int n) {
         // TODO: Implement this sorting algorithm here.
-
+        
+        // usage of stage is index to iterate through the whole array.
         for(int stage = 1; stage < n; stage++){
             Record key = arr[stage];
             int j = stage - 1;
@@ -43,6 +45,7 @@ public class SortingAlgorithms {
      * the smallest or largest element based on a specific criterion and
      * places it at the beginning of the unsorted portion. This process continues,
      * gradually forming a sorted list at the rear end while the unsorted area diminishes.
+     * Syntax for selectionSort: selectionSort(array, size);
      */
 
     public void selectionSort(Record[] arr, int n) {
@@ -71,6 +74,7 @@ public class SortingAlgorithms {
      * Merge Sort is a recursive sorting algorithm that employs
      * the Divide and Conquer principle. It divides the problem into smaller parts,
      * solves each sub-problem individually, and then combines them into a final sorted form.
+     * Syntax for usage of mergeSort: mergeSort(array, starting index, size - 1);
      */
     public void mergeSort(Record[] arr, int p, int r) {
         // TODO: Implement this sorting algorithm here.
@@ -96,6 +100,7 @@ public class SortingAlgorithms {
      * runs using insertion sort. The size of each run usually adheres to a specific criterion,
      * often a power of 2. Once these smaller runs are sorted individually, Timsort utilizes the
      * merge sort algorithm to merge and sort them into larger runs, ultimately creating the final sorted output.
+     * Syntax for usage of timSort: timsort(array, size);
      */
     public void timSort(Record[] arr, int nArr_size) {
         final int run = 32;
@@ -125,6 +130,7 @@ public class SortingAlgorithms {
      * @var i,j,k are indices for the process of sorting the array of Records.
      *
      * Merges sub-arrays and compares data in each sub-array.
+     * Syntax for mergeHelper: mergeHelper(array, starting index, mid index, end index);
      */
     private void mergeHelper(Record[] arr, int p, int m, int r){
         int subArr1_size = m-p+1;
