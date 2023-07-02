@@ -1,0 +1,6 @@
+
+|DATA RESULTS|
+------------------------------------------------------------------------------------------
+Algorithm : Insertion               | Time Taken (ms) | File Length
+Trial 1                             | 0               | 100       
+Steps: 2856
